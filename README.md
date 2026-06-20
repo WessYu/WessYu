@@ -1,4 +1,4 @@
-# Wesley Cruz — Front-end Developer Junior
+# Wesley Cruz — Front-end Developer
 
 Desenvolvedor Front-end Júnior em formação, com experiência em design visual, criação de interfaces responsivas e construção de projetos web com foco em UI, UX e código organizado.
 
