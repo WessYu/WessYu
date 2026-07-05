@@ -61,13 +61,6 @@ Meu foco é criar interfaces modernas, responsivas e funcionais, com boa apresen
 
 ---
 
-## GitHub Stats
-
-![WessYu GitHub stats](https://github-readme-stats.vercel.app/api?username=WessYu&show_icons=true&theme=github_dark&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WessYu&layout=compact&theme=github_dark&hide_border=true)
-
----
 
 ## Contato
 
