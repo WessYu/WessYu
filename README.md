@@ -1,16 +1,20 @@
 # Wesley Cruz — Front-end Developer
 
-Desenvolvedor Front-end Júnior em formação, com experiência em design visual, criação de interfaces responsivas e construção de projetos web com foco em UI, UX e código organizado.
+Desenvolvedor Front-end Júnior com base em design visual, criação de interfaces modernas e desenvolvimento de projetos web responsivos.
 
-Busco minha primeira oportunidade profissional como **Desenvolvedor Front-end Júnior**, unindo senso estético, atenção ao detalhe e vontade real de evoluir tecnicamente.
+Tenho foco em transformar ideias em experiências digitais funcionais, bonitas e bem organizadas usando **React, TypeScript, JavaScript, TailwindCSS, Vite e Next.js**.
+
+Atualmente busco minha primeira oportunidade profissional como **Desenvolvedor Front-end Júnior**, unindo senso estético, atenção ao detalhe e evolução constante em código.
 
 ---
 
 ## Sobre mim
 
-Sou o Wesley Cruz, também conhecido como **WessYu**. Tenho experiência com design visual e estou direcionando essa base para o desenvolvimento front-end.
+Sou o **Wesley Cruz**, também conhecido como **WessYu**.
 
-Meu foco é criar interfaces modernas, responsivas e funcionais, com boa apresentação visual e organização de código. Atualmente estudo e pratico **JavaScript, React, TypeScript, responsividade e boas práticas de UI/UX**.
+Venho do design visual e estou levando essa experiência para o desenvolvimento front-end, criando interfaces com boa composição visual, responsividade e preocupação real com experiência do usuário.
+
+Meu objetivo é crescer como desenvolvedor front-end, participando de projetos reais, aprendendo com times experientes e entregando soluções cada vez mais completas.
 
 ---
 
@@ -19,8 +23,10 @@ Meu foco é criar interfaces modernas, responsivas e funcionais, com boa apresen
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-111827?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
 ![Vite](https://img.shields.io/badge/Vite-111827?style=for-the-badge&logo=vite&logoColor=FFD62E)
 ![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white)
@@ -30,37 +36,45 @@ Meu foco é criar interfaces modernas, responsivas e funcionais, com boa apresen
 
 ## Projetos em destaque
 
-| Projeto | Descrição | Stack |
+| Projeto | O que demonstra | Stack |
 |---|---|---|
-| [Portfolio React](https://github.com/WessYu/Portfolio---React) | Portfólio profissional com apresentação, projetos, stack e contato. | React, Vite, CSS |
+| [Receitas](https://github.com/WessYu/Receitas) | Aplicação web full stack para receitas, com estrutura moderna, banco de dados e base para autenticação. | Next.js, React, TypeScript, Prisma, TailwindCSS |
+| [Portfolio React](https://github.com/WessYu/Portfolio---React) | Portfólio profissional com apresentação, projetos, stack e contato. | React, TypeScript, Vite |
+| [ToDo](https://github.com/WessYu/ToDo) | Aplicação de organização pessoal com interface moderna e foco em produtividade. | React, TypeScript, Vite |
 | [StudyFlow](https://github.com/WessYu/studyflow) | Kanban de estudos com tarefas, filtros, temas e persistência local. | React, TypeScript, Vite |
-| [Vinícola Serra Dourada](https://github.com/WessYu/vinicola-serra-dourada) | Landing page premium com vitrine, carrinho e experiência visual sofisticada. | React, Vite, TailwindCSS |
-| [Nocturna Atelier](https://github.com/WessYu/Nocturna-Atelier) | Loja dark premium para joias autorais, com interface elegante e backend simples. | HTML, CSS, JavaScript, Python |
+| [Vinícola Serra Dourada](https://github.com/WessYu/vinicola-serra-dourada-main) | Landing page premium com experiência visual sofisticada e foco em apresentação de produto. | React, Vite, TailwindCSS |
 | [Travelgram](https://github.com/WessYu/Travelgram) | Interface visual inspirada em rede social de viagens. | HTML, CSS |
-| [Turismo](https://github.com/WessYu/Turismo) | Landing page responsiva para apresentação de destinos e experiências. | HTML, CSS |
 
 ---
 
-## O que estou desenvolvendo
+## O que venho praticando
 
-- Interfaces responsivas para desktop e mobile
-- Projetos com foco em UI, UX e conversão
+- Criação de interfaces responsivas para desktop e mobile
 - Componentização com React
-- Organização de código e estrutura de projetos
-- Portfólio com projetos reais e apresentáveis
+- Desenvolvimento com TypeScript
+- Construção de layouts modernos com TailwindCSS
+- Estruturação de projetos com Vite e Next.js
+- Consumo e organização de dados em aplicações web
+- Boas práticas de UI, UX e experiência visual
+- Deploy e apresentação profissional de projetos
 
 ---
 
 ## Diferenciais
 
 - Experiência prévia com design visual
-- Boa percepção estética para interfaces
-- Capacidade de transformar layout em código
-- Foco em responsividade e acabamento visual
-- Interesse em aprender e crescer como front-end
+- Boa percepção estética para interfaces digitais
+- Facilidade para transformar layout em código
+- Atenção a responsividade, detalhes e acabamento visual
+- Vontade real de aprender, evoluir e contribuir em equipe
 
 ---
 
+## Objetivo atual
+
+Estou em busca da minha primeira oportunidade como **Desenvolvedor Front-end Júnior**, onde eu possa aplicar minha base em design, evoluir tecnicamente e contribuir com interfaces funcionais, acessíveis e bem construídas.
+
+---
 
 ## Contato
 
@@ -69,4 +83,4 @@ Meu foco é criar interfaces modernas, responsivas e funcionais, com boa apresen
 
 ---
 
-> Front-end em evolução constante, buscando transformar design em interfaces funcionais, responsivas e profissionais.
+> Criando interfaces com estética, propósito e código em evolução constante.
