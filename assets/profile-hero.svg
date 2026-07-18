@@ -1,30 +1,44 @@
-<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">WessYu — Designer e Desenvolvedor Front-End</title>
-  <desc id="desc">Banner preto minimalista inspirado no visual do portfólio WESSYU Arquivo.</desc>
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">WessYu — Front-end Developer com base em design</title>
+  <desc id="desc">Cabeçalho editorial escuro do perfil de Wesley Cruz.</desc>
+
   <defs>
-    <linearGradient id="fade" x1="600" y1="0" x2="600" y2="560" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#030303"/>
-      <stop offset="1" stop-color="#090909"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#0A0A0A"/>
     </linearGradient>
-    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
-      <path d="M72 0H0V72" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    <linearGradient id="fade" x1="700" y1="0" x2="1160" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8CFC0" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#D8CFC0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#FFFFFF" stroke-opacity="0.035"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="560" rx="8" fill="url(#fade)"/>
-  <rect width="1200" height="560" rx="8" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="558" rx="7" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect x="692" width="508" height="420" fill="url(#grid)"/>
+  <rect x="692" width="508" height="420" fill="url(#fade)"/>
+  <path d="M692 0V420" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <path d="M0 54H1200" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M0 366H1200" stroke="#FFFFFF" stroke-opacity="0.08"/>
 
-  <text x="36" y="48" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">WESSYU</text>
-  <text x="1164" y="48" text-anchor="end" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">ARQUIVO / PERFIL</text>
+  <text x="32" y="34" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">WESSYU / PROFILE 2026</text>
+  <text x="1168" y="34" text-anchor="end" fill="#8F8B84" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.4">CAXIAS DO SUL — BRASIL</text>
 
-  <text x="600" y="230" text-anchor="middle" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">DESIGNER &amp;</text>
-  <text x="600" y="306" text-anchor="middle" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">FRONT-END DEVELOPER</text>
+  <text x="30" y="164" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-4">FRONT-END</text>
+  <text x="30" y="241" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-4">DEVELOPER</text>
+  <text x="34" y="290" fill="#A9A39A" font-family="Arial, Helvetica, sans-serif" font-size="19">Direção visual, produto e implementação técnica.</text>
 
-  <text x="600" y="358" text-anchor="middle" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="18">Interfaces, aplicações web e produtos digitais.</text>
-  <text x="600" y="396" text-anchor="middle" fill="#B8B2A8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CAXIAS DO SUL — BRASIL</text>
+  <text x="730" y="112" fill="#D8CFC0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">BASE</text>
+  <text x="730" y="145" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">DESIGN DESDE 2020</text>
 
-  <text x="36" y="510" fill="#777777" font-family="Arial, Helvetica, sans-serif" font-size="14">DESIGN DESDE 2020</text>
-  <text x="1164" y="488" text-anchor="end" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="14">REACT · TYPESCRIPT · NEXT.JS</text>
-  <text x="1164" y="510" text-anchor="end" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="14">PRISMA · POSTGRESQL · FIGMA</text>
+  <text x="730" y="204" fill="#D8CFC0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">FOCO</text>
+  <text x="730" y="237" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">PRODUTOS WEB REAIS</text>
+
+  <text x="730" y="296" fill="#D8CFC0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">STACK</text>
+  <text x="730" y="329" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">REACT · TYPESCRIPT · NEXT.JS</text>
+
+  <text x="32" y="398" fill="#77736D" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">DESIGN → CÓDIGO → PRODUTO</text>
+  <text x="1168" y="398" text-anchor="end" fill="#77736D" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">AVAILABLE FOR FRONT-END OPPORTUNITIES</text>
 </svg>
