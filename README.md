@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="WessYu — Designer e Desenvolvedor Front-End" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="WessYu — Front-end Developer com base em design" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://portifoliowess.netlify.app"><b>PORTFÓLIO</b></a>
+  <a href="https://wessyu-arquivo.vercel.app/"><b>PORTFÓLIO</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/wesley-santos-cruz-b57589213/"><b>LINKEDIN</b></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -12,53 +12,76 @@
 
 ---
 
-## PERFIL
+## 01 / PERFIL
 
 Designer desde 2020 e desenvolvedor front-end desde 2023.
 
-Comecei pela direção visual e aprendi desenvolvimento para transformar ideias em interfaces funcionais, aplicações web e produtos digitais completos. Meu trabalho combina hierarquia, composição, responsividade e implementação técnica.
+Aprendi desenvolvimento para não deixar minhas ideias presas no layout. Hoje construo interfaces e aplicações completas, unindo **direção visual, experiência, responsividade e implementação técnica**.
 
-Atualmente, busco oportunidades para atuar com **front-end** e desenvolvimento de produtos digitais.
+Atualmente, estou disponível para oportunidades como **Desenvolvedor Front-End Júnior**.
 
----
-
-## TRABALHOS SELECIONADOS
-
-| Projeto | Descrição | Links |
-|---|---|---|
-| **Receitas** | Aplicação full stack com autenticação, favoritos, comentários, filtros e painel administrativo. | [Código](https://github.com/WessYu/Receitas) · [Projeto](https://receitas-delta-eight.vercel.app) |
-| **DevMatch** | Plataforma de conexão entre desenvolvedores e empresas, com perfis, matches, feed e chat. | [Código](https://github.com/WessYu/DEVMATCH) · [Projeto](https://devmatch-neon.vercel.app) |
-| **Logic Quest** | Plataforma de estudo com módulos, checkpoints, XP, progresso salvo e instalação PWA. | [Código](https://github.com/WessYu/Logic-quest) · [Projeto](https://wessyu.github.io/Logic-quest/) |
-| **HELENA** | Site jurídico com solicitações, protocolos, newsletter e painel administrativo. | [Código](https://github.com/WessYu/HELENA) · [Projeto](https://wessyu.github.io/HELENA/) |
-| **Differenza** | Redesign de salão e barbearia com foco em experiência digital premium. | [Código](https://github.com/WessYu/differenza-redesign) · [Projeto](https://wessyu.github.io/differenza-redesign/) |
+`CAXIAS DO SUL — RS, BRASIL`
 
 ---
 
-## TECNOLOGIAS
+## 02 / TRABALHOS SELECIONADOS
+
+### 01 — RECEITAS
+
+<a href="https://receitas-delta-eight.vercel.app">
+  <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/receitas/home.webp" alt="Interface do projeto Receitas" width="100%" />
+</a>
+
+Aplicação full stack para publicar, buscar, salvar e administrar receitas. Inclui autenticação, sessões, favoritos, comentários, filtros, upload de imagens e painel administrativo.
+
+**NEXT.JS · TYPESCRIPT · PRISMA · POSTGRESQL**  
+[VER PROJETO](https://receitas-delta-eight.vercel.app) · [VER CÓDIGO](https://github.com/WessYu/Receitas)
+
+<br />
+
+### 02 — DEVMATCH
+
+<a href="https://devmatch-neon.vercel.app">
+  <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/devmatch/home.webp" alt="Interface do projeto DevMatch" width="100%" />
+</a>
+
+Plataforma de recrutamento técnico com perfis separados para empresas e desenvolvedores, compatibilidade por stack, matches persistidos, feed e chat contextual.
+
+**NEXT.JS · TYPESCRIPT · NEON · POSTGRESQL**  
+[VER PROJETO](https://devmatch-neon.vercel.app) · [VER CÓDIGO](https://github.com/WessYu/DEVMATCH)
+
+<br />
+
+### 03 — LOGIC QUEST
+
+<a href="https://wessyu.github.io/Logic-quest/">
+  <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/logic-quest/overview.webp" alt="Interface do projeto Logic Quest" width="100%" />
+</a>
+
+Plataforma de estudo de lógica com módulos, prática guiada, checkpoints, XP, progresso persistente no navegador e instalação como PWA.
+
+**JAVASCRIPT · LOCALSTORAGE · PWA · RESPONSIVE UI**  
+[VER PROJETO](https://wessyu.github.io/Logic-quest/) · [VER CÓDIGO](https://github.com/WessYu/Logic-quest)
+
+---
+
+## 03 / STACK
 
 **FRONT-END**  
 React · TypeScript · JavaScript · Next.js · HTML · CSS · Tailwind CSS
 
 **BACK-END & DADOS**  
-Node.js · Prisma · PostgreSQL · APIs REST
+Node.js · Prisma · PostgreSQL · APIs REST · Autenticação
 
-**FERRAMENTAS**  
-Vite · Git · GitHub · Figma · Netlify · Vercel
-
----
-
-## PROCESSO
-
-`01` Entendimento do problema  
-`02` Organização da informação  
-`03` Direção visual e prototipação  
-`04` Implementação responsiva  
-`05` Revisão, testes e publicação
+**DESIGN & ENTREGA**  
+Figma · Direção visual · Interfaces responsivas · Git · GitHub · Vercel
 
 ---
 
-## CONTATO
+## 04 / CONTATO
 
-Caxias do Sul — RS, Brasil  
-E-mail: **wess.c@proton.me**  
-GitHub: **[@WessYu](https://github.com/WessYu)**
+Busco oportunidades para trabalhar com front-end, interfaces e produtos digitais.
+
+**Portfólio:** [wessyu-arquivo.vercel.app](https://wessyu-arquivo.vercel.app/)  
+**LinkedIn:** [wesley-santos-cruz](https://www.linkedin.com/in/wesley-santos-cruz-b57589213/)  
+**E-mail:** [wess.c@proton.me](mailto:wess.c@proton.me)
