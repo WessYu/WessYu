@@ -1,0 +1,36 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wess Yu — Front-end Developer and Designer</title>
+  <desc id="desc">Banner escuro e minimalista do perfil de Wess Yu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#0A0A0A"/>
+      <stop offset="1" stop-color="#121212"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 80) rotate(144) scale(420 300)">
+      <stop stop-color="#D8CFC0" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#D8CFC0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="white" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="white" stroke-opacity="0.1"/>
+
+  <text x="72" y="74" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">ARQUIVO PESSOAL / 2023—2026</text>
+  <text x="70" y="183" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-4">WESS YU</text>
+  <text x="74" y="231" fill="#B8B4AD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500">Front-end Developer + Visual Designer</text>
+  <text x="74" y="292" fill="#77736D" font-family="Arial, Helvetica, sans-serif" font-size="17">Interfaces, aplicações web e produtos digitais com foco em clareza, experiência e acabamento.</text>
+
+  <g transform="translate(932 142)">
+    <rect width="174" height="78" rx="14" fill="white" fill-opacity="0.035" stroke="white" stroke-opacity="0.1"/>
+    <text x="22" y="31" fill="#7D7973" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">LOCAL</text>
+    <text x="22" y="56" fill="#E8E4DC" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">CAXIAS DO SUL</text>
+  </g>
+
+  <circle cx="1080" cy="66" r="6" fill="#D8CFC0"/>
+  <path d="M72 326H1128" stroke="white" stroke-opacity="0.08"/>
+</svg>
