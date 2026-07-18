@@ -1,53 +1,56 @@
 <h1 align="center">Wesley Cruz</h1>
 
 <p align="center">
-  Desenvolvedor Front-End com base em design.
+  <strong>Desenvolvedor Front-End</strong> · React · TypeScript · Next.js · Base em Design
 </p>
 
 <p align="center">
-  <a href="https://wessyu-arquivo.vercel.app/">Portfólio</a> ·
-  <a href="https://www.linkedin.com/in/wesley-santos-cruz-b57589213/">LinkedIn</a> ·
-  <a href="mailto:wess.c@proton.me">E-mail</a>
+  Construo interfaces responsivas e produtos web do design ao deploy.
+</p>
+
+<p align="center">
+  <a href="https://wessyu-arquivo.vercel.app/"><strong>Portfólio</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/wesley-santos-cruz-b57589213/"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:wess.c@proton.me"><strong>E-mail</strong></a>
 </p>
 
 ---
 
-### Projetos selecionados
-
-| Projeto | Projeto | Código |
-|---|:---:|:---:|
-| **Receitas** | [Abrir](https://receitas-delta-eight.vercel.app) | [GitHub](https://github.com/WessYu/Receitas) |
-| **DevMatch** | [Abrir](https://devmatch-neon.vercel.app) | [GitHub](https://github.com/WessYu/DEVMATCH) |
-| **Logic Quest** | [Abrir](https://wessyu.github.io/Logic-quest/) | [GitHub](https://github.com/WessYu/Logic-quest) |
-
-### Stack
-
-<p align="center"><sub>FRONT-END</sub></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=F2F0EA" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=F2F0EA" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F2F0EA" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=F2F0EA" alt="Next.js" />
-  <img src="https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=F2F0EA" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=F2F0EA" alt="CSS3" />
-</p>
-
-<p align="center"><sub>BACK-END & DADOS</sub></p>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Receitas</h3>
+      <p>Aplicação full stack com autenticação, favoritos, filtros e painel administrativo.</p>
+      <p><a href="https://receitas-delta-eight.vercel.app">Projeto</a> · <a href="https://github.com/WessYu/Receitas">Código</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>DevMatch</h3>
+      <p>Plataforma de recrutamento técnico com compatibilidade, matches, feed e chat.</p>
+      <p><a href="https://devmatch-neon.vercel.app">Projeto</a> · <a href="https://github.com/WessYu/DEVMATCH">Código</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Logic Quest</h3>
+      <p>Plataforma de estudo com módulos, checkpoints, progresso persistente e PWA.</p>
+      <p><a href="https://wessyu.github.io/Logic-quest/">Projeto</a> · <a href="https://github.com/WessYu/Logic-quest">Código</a></p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=F2F0EA" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Prisma-111111?style=flat-square&logo=prisma&logoColor=F2F0EA" alt="Prisma" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=F2F0EA" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Prisma-111111?style=for-the-badge&logo=prisma&logoColor=FFFFFF" alt="Prisma" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
+  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Vercel-111111?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
 </p>
-
-<p align="center"><sub>FERRAMENTAS</sub></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=F2F0EA" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=F2F0EA" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Figma-111111?style=flat-square&logo=figma&logoColor=F2F0EA" alt="Figma" />
-  <img src="https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=F2F0EA" alt="Vercel" />
+  <sub>Caxias do Sul, RS · Disponível para oportunidades em Front-End</sub>
 </p>
-
-<p align="center"><sub>Caxias do Sul, RS — Brasil</sub></p>
