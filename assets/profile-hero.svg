@@ -1,0 +1,30 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">WessYu — Designer e Desenvolvedor Front-End</title>
+  <desc id="desc">Banner preto minimalista inspirado no visual do portfólio WESSYU Arquivo.</desc>
+  <defs>
+    <linearGradient id="fade" x1="600" y1="0" x2="600" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030303"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="560" rx="8" fill="url(#fade)"/>
+  <rect width="1200" height="560" rx="8" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="558" rx="7" stroke="#FFFFFF" stroke-opacity="0.1"/>
+
+  <text x="36" y="48" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">WESSYU</text>
+  <text x="1164" y="48" text-anchor="end" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">ARQUIVO / PERFIL</text>
+
+  <text x="600" y="230" text-anchor="middle" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">DESIGNER &amp;</text>
+  <text x="600" y="306" text-anchor="middle" fill="#F2F0EA" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">FRONT-END DEVELOPER</text>
+
+  <text x="600" y="358" text-anchor="middle" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="18">Interfaces, aplicações web e produtos digitais.</text>
+  <text x="600" y="396" text-anchor="middle" fill="#B8B2A8" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CAXIAS DO SUL — BRASIL</text>
+
+  <text x="36" y="510" fill="#777777" font-family="Arial, Helvetica, sans-serif" font-size="14">DESIGN DESDE 2020</text>
+  <text x="1164" y="488" text-anchor="end" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="14">REACT · TYPESCRIPT · NEXT.JS</text>
+  <text x="1164" y="510" text-anchor="end" fill="#9B9B9B" font-family="Arial, Helvetica, sans-serif" font-size="14">PRISMA · POSTGRESQL · FIGMA</text>
+</svg>
