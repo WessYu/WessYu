@@ -24,7 +24,7 @@
 
 <p align="center">
   <a href="https://component-vault-dun.vercel.app/">
-    <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/component-vault/overview.svg" alt="Interface real do Component Vault" width="100%" />
+    <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/component-vault/landing.svg" alt="Landing atual do Component Vault" width="100%" />
   </a>
 </p>
 
