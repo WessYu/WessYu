@@ -24,46 +24,49 @@
 
 <p align="center">
   <a href="https://component-vault-dun.vercel.app/">
-    <img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/component-vault-demo.gif" alt="Component Vault" width="720" />
+    <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/component-vault/overview.svg" alt="Interface real do Component Vault" width="100%" />
   </a>
 </p>
 
 Workspace full stack para criar, organizar, editar e salvar componentes de interface, com **Next.js, TypeScript, Convex, autenticação, favoritos por usuário, administração e Motion Experiences**.
 
 <p align="center">
-  <a href="https://component-vault-dun.vercel.app/"><strong>Ver produto</strong></a> ·
-  <a href="https://github.com/WessYu/component-vault"><strong>Ver código</strong></a>
+  <a href="https://component-vault-dun.vercel.app/"><strong>Abrir Component Vault ↗</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/WessYu/component-vault">Ver código</a>
 </p>
 
 ## Projetos selecionados
+
+<p>Clique no preview, no nome ou em <strong>Abrir projeto ↗</strong> para acessar a aplicação.</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://receitas-delta-eight.vercel.app"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/receitas/home.webp" alt="Receitas" /></a>
-      <h3>Receitas</h3>
+      <h3><a href="https://receitas-delta-eight.vercel.app">Receitas ↗</a></h3>
       <p>Aplicação full stack com autenticação, favoritos, comentários, modo cozinha e painel administrativo.</p>
-      <p><a href="https://receitas-delta-eight.vercel.app">Projeto</a> · <a href="https://github.com/WessYu/Receitas">Código</a></p>
+      <p><strong><a href="https://receitas-delta-eight.vercel.app">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/Receitas">Ver código</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://devmatch-neon.vercel.app"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/devmatch/home.webp" alt="DevMatch" /></a>
-      <h3>DevMatch</h3>
+      <h3><a href="https://devmatch-neon.vercel.app">DevMatch ↗</a></h3>
       <p>Plataforma de recrutamento técnico com perfis por papel, compatibilidade, matches, feed e chat.</p>
-      <p><a href="https://devmatch-neon.vercel.app">Projeto</a> · <a href="https://github.com/WessYu/DEVMATCH">Código</a></p>
+      <p><strong><a href="https://devmatch-neon.vercel.app">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/DEVMATCH">Ver código</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://wessyu.github.io/Logic-quest/"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/logic-quest/overview.webp" alt="Logic Quest" /></a>
-      <h3>Logic Quest</h3>
+      <h3><a href="https://wessyu.github.io/Logic-quest/">Logic Quest ↗</a></h3>
       <p>Plataforma de estudo com módulos, checkpoints, XP, progresso persistente e PWA.</p>
-      <p><a href="https://wessyu.github.io/Logic-quest/">Projeto</a> · <a href="https://github.com/WessYu/Logic-quest">Código</a></p>
+      <p><strong><a href="https://wessyu.github.io/Logic-quest/">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/Logic-quest">Ver código</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://wessyu-arquivo.vercel.app/"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/assets/readme-preview.svg" alt="WESSYU Arquivo" /></a>
-      <h3>WESSYU Arquivo</h3>
+      <h3><a href="https://wessyu-arquivo.vercel.app/">WESSYU Arquivo ↗</a></h3>
       <p>Portfólio editorial com reel de projetos, estudos de caso e apresentação de decisões de produto.</p>
-      <p><a href="https://wessyu-arquivo.vercel.app/">Projeto</a> · <a href="https://github.com/WessYu/WESSYU-ARQUIVO">Código</a></p>
+      <p><strong><a href="https://wessyu-arquivo.vercel.app/">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/WESSYU-ARQUIVO">Ver código</a></p>
     </td>
   </tr>
 </table>
