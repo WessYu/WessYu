@@ -5,11 +5,11 @@
 <h1 align="center">Wesley Cruz</h1>
 
 <p align="center">
-  <strong>Front-End Developer · Product UI · Design background</strong>
+  <strong>Front-End Developer · React · Next.js · TypeScript · Product UI</strong>
 </p>
 
 <p align="center">
-  Construo interfaces e aplicações web do conceito ao deploy, combinando produto, experiência visual e implementação.
+  Construo interfaces e aplicações web do conceito ao deploy, combinando produto, experiência visual, APIs e dados.
 </p>
 
 <p align="center">
@@ -20,20 +20,20 @@
   <a href="mailto:wess.c@proton.me"><strong>E-mail</strong></a>
 </p>
 
-## Em destaque — Component Vault
+## Em destaque — DevMatch
 
 <p align="center">
-  <a href="https://component-vault-dun.vercel.app/">
-    <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/component-vault/landing.svg" alt="Landing atual do Component Vault" width="100%" />
+  <a href="https://devmatch-neon.vercel.app">
+    <img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/devmatch/home.webp" alt="Workspace do DevMatch" width="100%" />
   </a>
 </p>
 
-Workspace full stack para criar, organizar, editar e salvar componentes de interface, com **Next.js, TypeScript, Convex, autenticação, favoritos por usuário, administração e Motion Experiences**.
+Produto full stack de recrutamento técnico com **Next.js, TypeScript, PostgreSQL e Neon**, incluindo autenticação, perfis de empresa e desenvolvedor, vagas remotas reais da **Remotive**, busca, filtros, compatibilidade, matches persistidos, feed e chat.
 
 <p align="center">
-  <a href="https://component-vault-dun.vercel.app/"><strong>Abrir Component Vault ↗</strong></a>
+  <a href="https://devmatch-neon.vercel.app"><strong>Abrir DevMatch ↗</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/WessYu/component-vault">Ver código</a>
+  <a href="https://github.com/WessYu/DEVMATCH">Ver código</a>
 </p>
 
 ## Projetos selecionados
@@ -43,33 +43,42 @@ Workspace full stack para criar, organizar, editar e salvar componentes de inter
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://receitas-delta-eight.vercel.app"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/receitas/home.webp" alt="Receitas" /></a>
-      <h3><a href="https://receitas-delta-eight.vercel.app">Receitas ↗</a></h3>
-      <p>Aplicação full stack com autenticação, favoritos, comentários, modo cozinha e painel administrativo.</p>
-      <p><strong><a href="https://receitas-delta-eight.vercel.app">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/Receitas">Ver código</a></p>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://devmatch-neon.vercel.app"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/devmatch/home.webp" alt="DevMatch" /></a>
       <h3><a href="https://devmatch-neon.vercel.app">DevMatch ↗</a></h3>
-      <p>Plataforma de recrutamento técnico com perfis por papel, compatibilidade, matches, feed e chat.</p>
+      <p>Recrutamento técnico com vagas reais, perfis por papel, busca, filtros, compatibilidade, matches, feed e chat.</p>
       <p><strong><a href="https://devmatch-neon.vercel.app">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/DEVMATCH">Ver código</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://receitas-delta-eight.vercel.app"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/receitas/home.webp" alt="Receitas" /></a>
+      <h3><a href="https://receitas-delta-eight.vercel.app">Receitas ↗</a></h3>
+      <p>Aplicação full stack com autenticação, favoritos, comentários, moderação, modo cozinha e painel administrativo.</p>
+      <p><strong><a href="https://receitas-delta-eight.vercel.app">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/Receitas">Ver código</a></p>
     </td>
   </tr>
   <tr>
+    <td width="50%" valign="top">
+      <a href="https://component-vault-dun.vercel.app/"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/component-vault/landing.svg" alt="Component Vault" /></a>
+      <h3><a href="https://component-vault-dun.vercel.app/">Component Vault ↗</a></h3>
+      <p>Workspace full stack para criar, organizar e salvar componentes, com contas, favoritos, administração e motion.</p>
+      <p><strong><a href="https://component-vault-dun.vercel.app/">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/component-vault">Ver código</a></p>
+    </td>
     <td width="50%" valign="top">
       <a href="https://wessyu.github.io/Logic-quest/"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/public/projects/logic-quest/overview.webp" alt="Logic Quest" /></a>
       <h3><a href="https://wessyu.github.io/Logic-quest/">Logic Quest ↗</a></h3>
       <p>Plataforma de estudo com módulos, checkpoints, XP, progresso persistente e PWA.</p>
       <p><strong><a href="https://wessyu.github.io/Logic-quest/">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/Logic-quest">Ver código</a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://wessyu-arquivo.vercel.app/"><img src="https://raw.githubusercontent.com/WessYu/WESSYU-ARQUIVO/main/assets/readme-preview.svg" alt="WESSYU Arquivo" /></a>
-      <h3><a href="https://wessyu-arquivo.vercel.app/">WESSYU Arquivo ↗</a></h3>
-      <p>Portfólio editorial com reel de projetos, estudos de caso e apresentação de decisões de produto.</p>
-      <p><strong><a href="https://wessyu-arquivo.vercel.app/">Abrir projeto ↗</a></strong> &nbsp;·&nbsp; <a href="https://github.com/WessYu/WESSYU-ARQUIVO">Ver código</a></p>
-    </td>
   </tr>
 </table>
+
+## O que estes projetos demonstram
+
+- interfaces responsivas e componentizadas;
+- integração com APIs e serviços externos;
+- autenticação, sessões e controle de papéis;
+- persistência com PostgreSQL, Prisma, Neon e Convex;
+- testes de jornada com Playwright;
+- visão de produto apoiada por experiência em design.
 
 ## Stack
 
@@ -80,11 +89,11 @@ Workspace full stack para criar, organizar, editar e salvar componentes de inter
   <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
   <img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
   <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Convex-111111?style=for-the-badge" alt="Convex" />
+  <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright" />
   <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
   <img src="https://img.shields.io/badge/Vercel-111111?style=for-the-badge&logo=vercel&logoColor=FFFFFF" alt="Vercel" />
 </p>
 
 <p align="center">
-  <sub>Caxias do Sul, RS · Disponível para oportunidades em Front-End e Produto</sub>
+  <sub>Caxias do Sul, RS · Disponível para oportunidades em Front-End Júnior e Produto</sub>
 </p>
