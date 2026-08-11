@@ -71,14 +71,7 @@ Produto full stack de recrutamento técnico com **Next.js, TypeScript, PostgreSQ
   </tr>
 </table>
 
-## O que estes projetos demonstram
 
-- interfaces responsivas e componentizadas;
-- integração com APIs e serviços externos;
-- autenticação, sessões e controle de papéis;
-- persistência com PostgreSQL, Prisma, Neon e Convex;
-- testes de jornada com Playwright;
-- visão de produto apoiada por experiência em design.
 
 ## Stack
 
