@@ -80,20 +80,20 @@ npx component-vault scan
 
 ---
 
-## Engineering mindset
+## Engineering approach
 
-I don't want to stop at **"it works."**
+I care about what happens **after the feature works**.
 
-When I build a feature, I also think about:
+When building a UI, I think about:
 
-- Can this component be reused without becoming harder to understand?
-- Is the API predictable for the next developer?
-- What happens when the content or requirements change?
-- Is the interface accessible and resilient?
-- Can the same class of mistake be prevented by tooling?
-- Will this still make sense six months from now?
+- whether components stay reusable as the product grows
+- whether their APIs are clear and predictable
+- how the interface behaves with real content and changing requirements
+- accessibility, responsiveness and edge cases
+- whether recurring mistakes can be prevented through tooling
+- whether the code will still be easy to understand months later
 
-That mindset is what pushed my work from building interfaces toward **component governance and developer tooling**.
+This is what led me from building interfaces to exploring **component governance, static analysis and developer tooling** with Component Vault.
 
 ---
 
