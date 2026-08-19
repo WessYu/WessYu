@@ -1,9 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090B12"/><stop offset="1" stop-color="#111522"/></linearGradient><radialGradient id="r"><stop stop-color="#D8CFC0" stop-opacity=".24"/><stop offset="1" stop-color="#D8CFC0" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="520" rx="28" fill="url(#g)"/><circle cx="1020" cy="80" r="280" fill="url(#r)"/>
-<text x="72" y="92" fill="#D8CFC0" font-size="18" font-family="Arial" font-weight="700" letter-spacing="3">WESSYU / PROJECT</text>
-<text x="72" y="185" fill="#F6F7FB" font-size="64" font-family="Arial" font-weight="800">WessYu</text>
-<text x="72" y="236" fill="#9AA1B5" font-size="21" font-family="Arial">Interface, produto e desenvolvimento.</text>
-<rect x="72" y="310" width="230" height="118" rx="18" fill="#111522" stroke="#2B3142"/><text x="92" y="344" fill="#7D8498" font-size="14" font-family="Arial">01</text><text x="92" y="384" fill="#F6F7FB" font-size="18" font-family="Arial" font-weight="700">Featured projects</text><rect x="342" y="310" width="230" height="118" rx="18" fill="#111522" stroke="#2B3142"/><text x="362" y="344" fill="#7D8498" font-size="14" font-family="Arial">02</text><text x="362" y="384" fill="#F6F7FB" font-size="18" font-family="Arial" font-weight="700">Tech stack</text><rect x="612" y="310" width="230" height="118" rx="18" fill="#111522" stroke="#2B3142"/><text x="632" y="344" fill="#7D8498" font-size="14" font-family="Arial">03</text><text x="632" y="384" fill="#F6F7FB" font-size="18" font-family="Arial" font-weight="700">Portfolio links</text><rect x="882" y="310" width="230" height="118" rx="18" fill="#111522" stroke="#2B3142"/><text x="902" y="344" fill="#7D8498" font-size="14" font-family="Arial">04</text><text x="902" y="384" fill="#F6F7FB" font-size="18" font-family="Arial" font-weight="700">Contact</text>
-<text x="72" y="482" fill="#5E667A" font-size="14" font-family="Arial">github.com/WessYu/WessYu</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="460" viewBox="0 0 1400 460">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050509"/><stop offset=".55" stop-color="#0a0712"/><stop offset="1" stop-color="#120722"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#8b5cf6" stop-opacity=".45"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#8b5cf6" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<rect width="1400" height="460" rx="28" fill="url(#bg)"/>
+<circle cx="1110" cy="210" r="330" fill="url(#glow)" filter="url(#blur)"/>
+<path d="M850 0 L1400 0 L1400 460 L1050 460 Z" fill="#8b5cf6" opacity=".025"/>
+<g opacity=".18" stroke="#8b5cf6" fill="none"><path d="M920 310h120l65-70h95l70-70h100"/><path d="M1010 390h90l60-65h90l80-80h70"/><circle cx="1040" cy="310" r="5" fill="#a78bfa"/><circle cx="1175" cy="240" r="5" fill="#a78bfa"/><circle cx="1300" cy="170" r="5" fill="#a78bfa"/></g>
+<text x="72" y="72" fill="#a78bfa" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="4">// FRONT-END DEVELOPER</text>
+<text x="72" y="158" fill="#ffffff" font-family="Arial, sans-serif" font-size="70" font-weight="900" letter-spacing="1">WESLEY CRUZ</text>
+<text x="76" y="202" fill="#a9a6b7" font-family="Arial, sans-serif" font-size="21">React · TypeScript · Next.js · Developer Tooling</text>
+<rect x="72" y="246" width="330" height="48" rx="12" fill="#0d0b15" stroke="#31234f"/><circle cx="94" cy="270" r="6" fill="#22c55e"/><text x="112" y="277" fill="#d8d3e3" font-family="Arial, sans-serif" font-size="15">Available for opportunities</text>
+<rect x="72" y="326" width="560" height="78" rx="14" fill="#08070d" stroke="#282033"/>
+<text x="96" y="357" fill="#8b5cf6" font-family="monospace" font-size="15">$ whoami</text>
+<text x="96" y="383" fill="#d8d3e3" font-family="monospace" font-size="14">developer · builder · problem solver</text>
+<g transform="translate(1000 110)">
+  <rect x="0" y="0" width="230" height="170" rx="22" fill="#0b0911" stroke="#6d45c7" stroke-width="2"/>
+  <rect x="18" y="18" width="194" height="32" rx="8" fill="#11101a"/>
+  <circle cx="35" cy="34" r="4" fill="#777"/><circle cx="49" cy="34" r="4" fill="#777"/><circle cx="63" cy="34" r="4" fill="#777"/>
+  <text x="24" y="83" fill="#a78bfa" font-family="monospace" font-size="14">$ npx component-vault</text>
+  <text x="24" y="108" fill="#8f8a9d" font-family="monospace" font-size="13">scan · analyze · fix</text>
+  <text x="24" y="145" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="800">CV</text>
+</g>
+<line x1="72" y1="428" x2="1328" y2="428" stroke="url(#line)"/>
+<text x="72" y="448" fill="#5f596b" font-family="Arial, sans-serif" font-size="12">github.com/WessYu</text>
 </svg>
