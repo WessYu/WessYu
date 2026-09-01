@@ -8,7 +8,7 @@
 
 **Front-End Developer · Interfaces · Component Systems · Developer Tooling**
 
-I build web products with attention to **architecture, consistency, accessibility and maintainability**.
+I build web products and developer tools with attention to **architecture, consistency, accessibility and maintainability**.
 
 [Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-santos-cruz-b57589213/) · [Email](mailto:w3ss.cruz@gmail.com)
 
@@ -48,10 +48,43 @@ npx component-vault scan
 
 ---
 
+## Featured — Velocity
+
+**Performance evidence and regression gates for JavaScript and TypeScript projects.**
+
+Velocity is an open-source **npm CLI and ESM API** that combines AST-based static analysis, build artifact measurement, real Chromium load metrics, benchmarking and Node.js profiling.
+
+Optimization plans are dry-run by default, produce reviewable diffs and use hash checks to avoid overwriting external changes during rollback.
+
+```text
+Source + build + browser
+          ↓
+   measured evidence
+          ├─ FCP · LCP · CLS · TBT · TTFB
+          ├─ bundles and build artifacts
+          ├─ benchmarks and Node.js profiles
+          └─ compatible baseline comparisons
+                         ↓
+                 reports · baselines · CI gates
+```
+
+```bash
+npm install --save-dev @wess2001/velocity
+npx velocity analyze
+npx velocity load http://localhost:4173 --device mobile --runs 3
+```
+
+> Missing evidence stays `null`; incompatible environments never become a confident verdict.
+
+[**Source ↗**](https://github.com/WessYu/velocity) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/velocity) · [**v0.3.1 ↗**](https://github.com/WessYu/velocity/releases/tag/v0.3.1)
+
+---
+
 ## Selected work
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
+| [**Velocity**](https://github.com/WessYu/velocity) | Performance analysis, real-browser measurement, regression gates, dry-run optimization and hash-checked rollback | Node.js · Babel AST · Chromium · GitHub Actions |
 | [**Component Vault**](https://github.com/WessYu/component-vault) | Component governance, AST analysis, CLI and developer tooling | TypeScript · Node.js |
 | [**DevMatch**](https://github.com/WessYu/DEVMATCH) | Full-stack product architecture, search, matching and real-time features | Next.js · TypeScript · PostgreSQL |
 | [**Receitas**](https://github.com/WessYu/Receitas) | Authentication, CRUD, moderation and product-oriented UI | Next.js · TypeScript |
@@ -93,7 +126,7 @@ When building a UI, I think about:
 - whether recurring mistakes can be prevented through tooling
 - whether the code will still be easy to understand months later
 
-This is what led me from building interfaces to exploring **component governance, static analysis and developer tooling** with Component Vault.
+This is what led me from building interfaces to exploring **component governance and static analysis** with Component Vault, and **performance evidence and regression control** with Velocity.
 
 ---
 
