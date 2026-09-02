@@ -1,40 +1,33 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/WessYu-cover.svg" alt="WessYu — Front-End Developer" width="100%">
+<img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/WessYu-cover.svg" alt="Wess Yu — Front-End Developer" width="100%">
 
 <br>
 
 # Wess Yu
 
-**Front-End Developer · Interfaces · Component Systems · Developer Tooling**
+**Front-End Developer · React · Next.js · TypeScript · UI/UX · Developer Tooling**
 
-I build web products and developer tools with attention to **architecture, consistency, accessibility and maintainability**.
+I build web products with careful UI engineering and developer tools that make front-end codebases easier to maintain, measure and evolve.
 
-[Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-santos-cruz-b57589213/) · [Email](mailto:w3ss.cruz@gmail.com)
+[Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-cruz2001/) · [Email](mailto:wess.c@proton.me)
 
 </div>
 
 ---
 
-## Featured — Component Vault
+## Featured work
 
-**Component workspace + AST-based design-system governance.**
+### Component Vault
 
-Component Vault evolved from a component library into a developer tool focused on **governance, code analysis and automated enforcement**.
+**Component workspace + AST-based governance for front-end codebases.**
 
-The **Component Vault Guard** uses the TypeScript Compiler API to turn UI rules into executable policies across TypeScript, TSX, JavaScript and JSX.
+Component Vault combines a Next.js/React workspace with the **Component Vault Guard**, a TypeScript AST-based engine that turns component and design-system rules into executable checks.
 
-```text
-Codebase → TypeScript AST → Guard
-                         ├─ component rules
-                         ├─ semantic rules
-                         ├─ baseline / migration
-                         └─ deterministic autofix
-                                  ↓
-                           CLI · CI · PRs
-```
-
-### CLI
+- semantic rules across TypeScript, TSX, JavaScript and JSX
+- baseline support for gradual adoption in existing codebases
+- PR reporting, deterministic autofix and CI integration
+- CLI distributed through npm/NPX
 
 ```bash
 npx @wess2001/component-vault@latest init
@@ -42,31 +35,21 @@ npx component-vault analyze
 npx component-vault scan
 ```
 
-> **AI can generate code. The repository should still decide what is allowed.**
-
-[**Demo ↗**](https://component-vault-dun.vercel.app/) · [**Source ↗**](https://github.com/WessYu/component-vault) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/component-vault)
+[**Live product ↗**](https://component-vault-dun.vercel.app/) · [**Source ↗**](https://github.com/WessYu/component-vault) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/component-vault)
 
 ---
 
-## Featured — Velocity
+### Velocity
 
-**Performance evidence and regression gates for JavaScript and TypeScript projects.**
+**Performance diagnostics and regression control for JavaScript/TypeScript projects.**
 
-Velocity is an open-source **npm CLI and ESM API** that combines AST-based static analysis, build artifact measurement, real Chromium load metrics, benchmarking and Node.js profiling.
+Velocity is an npm CLI and ESM API for collecting performance evidence from source code, build artifacts, Chromium runs, benchmarks and Node.js profiles.
 
-Optimization plans are dry-run by default, produce reviewable diffs and use hash checks to avoid overwriting external changes during rollback.
-
-```text
-Source + build + browser
-          ↓
-   measured evidence
-          ├─ FCP · LCP · CLS · TBT · TTFB
-          ├─ bundles and build artifacts
-          ├─ benchmarks and Node.js profiles
-          └─ compatible baseline comparisons
-                         ↓
-                 reports · baselines · CI gates
-```
+- AST-based static analysis and build measurement
+- FCP, LCP, CLS, TBT and TTFB from real browser runs
+- compatible baseline comparisons and CI regression gates
+- reviewable optimization plans with rollback safeguards
+- JSON/SARIF output, ESM API and TypeScript types
 
 ```bash
 npm install --save-dev @wess2001/velocity
@@ -74,40 +57,35 @@ npx velocity analyze
 npx velocity load http://localhost:4173 --device mobile --runs 3
 ```
 
-> Missing evidence stays `null`; incompatible environments never become a confident verdict.
-
-[**Source ↗**](https://github.com/WessYu/velocity) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/velocity) · [**v0.3.1 ↗**](https://github.com/WessYu/velocity/releases/tag/v0.3.1)
+[**Source ↗**](https://github.com/WessYu/velocity) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/velocity)
 
 ---
 
 ## Selected work
 
-| Project | What it demonstrates | Stack |
+| Project | What it demonstrates | Main stack |
 | --- | --- | --- |
-| [**Velocity**](https://github.com/WessYu/velocity) | Performance analysis, real-browser measurement, regression gates, dry-run optimization and hash-checked rollback | Node.js · Babel AST · Chromium · GitHub Actions |
-| [**Component Vault**](https://github.com/WessYu/component-vault) | Component governance, AST analysis, CLI and developer tooling | TypeScript · Node.js |
-| [**DevMatch**](https://github.com/WessYu/DEVMATCH) | Full-stack product architecture, search, matching and real-time features | Next.js · TypeScript · PostgreSQL |
-| [**Receitas**](https://github.com/WessYu/Receitas) | Authentication, CRUD, moderation and product-oriented UI | Next.js · TypeScript |
-| [**Logic Quest**](https://github.com/WessYu/Logic-quest) | Interactive learning experience and persistent client state | JavaScript · PWA |
+| [**Component Vault**](https://github.com/WessYu/component-vault) | Component governance, AST analysis, npm CLI, CI and full-stack product work | Next.js · React · TypeScript · Convex · Node.js |
+| [**Velocity**](https://github.com/WessYu/velocity) | Performance analysis, browser measurement, benchmarking, regression gates and safe optimization | Node.js · TypeScript · Babel AST · Chromium · GitHub Actions |
+| [**DevMatch**](https://github.com/WessYu/DEVMATCH) | Full-stack product architecture, external APIs, search, matching, persistence and chat | Next.js · TypeScript · PostgreSQL · Playwright |
+| [**Differenza**](https://github.com/WessYu/differenza-redesign) | UI/UX audit, visual redesign, responsive implementation and content hierarchy | Front-End · Responsive UI · UI/UX |
 
 [**Explore all repositories →**](https://github.com/WessYu?tab=repositories)
 
 ---
 
-## Tech stack
+## Core stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
   <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Vite-111111?style=for-the-badge&logo=vite&logoColor=646CFF" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind-111111?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
   <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-111111?style=for-the-badge&logo=prisma&logoColor=FFFFFF" alt="Prisma" />
   <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright" />
-  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-111111?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
 </p>
 
@@ -115,33 +93,22 @@ npx velocity load http://localhost:4173 --device mobile --runs 3
 
 ## Engineering approach
 
-I care about what happens **after the feature works**.
+My front-end work starts with the interface, but it does not stop there. I care about component APIs, accessibility, real content, edge cases, testing, delivery and what happens when a codebase grows.
 
-When building a UI, I think about:
-
-- whether components stay reusable as the product grows
-- whether their APIs are clear and predictable
-- how the interface behaves with real content and changing requirements
-- accessibility, responsiveness and edge cases
-- whether recurring mistakes can be prevented through tooling
-- whether the code will still be easy to understand months later
-
-This is what led me from building interfaces to exploring **component governance and static analysis** with Component Vault, and **performance evidence and regression control** with Velocity.
+That is why my projects span both **product development** and **developer tooling**: React/Next.js interfaces, APIs and data on one side; component governance, static analysis and performance evidence on the other.
 
 ---
 
-## What I'm looking for
+## Open to opportunities
 
-I'm looking for a **Junior Front-End Developer** opportunity where I can contribute to real products, learn from experienced engineers and grow through problems that go beyond tutorials.
+I'm looking for a **Junior Front-End Developer** role where I can contribute to real products with React, Next.js and TypeScript, learn through code review and collaborate with engineers and product/design teams.
 
-I'm especially interested in teams that value **clean code, thoughtful UX, collaboration, code review and continuous learning**.
+Remote opportunities are especially welcome.
 
 ---
 
 <div align="center">
 
-### Let's build something useful.
-
-[GitHub](https://github.com/WessYu) · [LinkedIn](https://www.linkedin.com/in/wesley-santos-cruz-b57589213/) · [Portfolio](https://wessyu-arquivo.vercel.app/) · [Email](mailto:w3ss.cruz@gmail.com)
+[Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-cruz2001/) · [Email](mailto:wess.c@proton.me)
 
 </div>
