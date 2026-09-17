@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering toolkit</title>
+  <desc id="desc">NEXUS, Component Vault, Velocity and SPECTER.</desc>
+  <style>
+    .name { font: 700 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #24292f; }
+    .sub { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #57606a; }
+    @media (prefers-color-scheme: dark) {
+      .name { fill: #f0f6fc; }
+      .sub { fill: #8b949e; }
+    }
+  </style>
+
+  <g transform="translate(64 16) scale(.2857142857)">
+    <rect x="8" y="8" width="320" height="320" rx="52" fill="#111111" stroke="#303030" stroke-width="2"/>
+    <path d="M 96,92 L 96,219 L 132,250 L 136,250 L 137,184 L 139,182 L 190,224 L 241,270 L 246,271 L 246,222 L 99,92 Z" fill="#666666" fill-rule="evenodd"/>
+    <path d="M 205,92 L 204,177 L 207,183 L 246,215 L 247,125 L 210,93 Z" fill="#666666" fill-rule="evenodd"/>
+    <path d="M 97,95 L 97,216 L 134,247 L 135,180 L 138,178 L 241,267 L 244,267 L 243,223 Z" fill="#ededed" fill-rule="evenodd"/>
+    <path d="M 208,96 L 208,180 L 243,211 L 244,125 Z" fill="#ededed" fill-rule="evenodd"/>
+  </g>
+
+  <g transform="translate(289 16) scale(.2857142857)">
+    <rect x="8" y="8" width="320" height="320" rx="52" fill="#111111" stroke="#303030" stroke-width="2"/>
+    <path d="M 82,132 L 82,135 L 87,139 L 163,175 L 168,175 L 185,168 L 251,135 L 250,131 L 167,92 L 140,103 Z" fill="#e9e9e9" fill-rule="evenodd"/>
+    <path d="M 83,168 L 90,175 L 164,210 L 175,207 L 249,170 L 247,166 L 227,155 L 170,182 L 163,182 L 108,155 Z" fill="#a5a5a5" fill-rule="evenodd"/>
+    <path d="M 85,202 L 86,207 L 163,244 L 169,244 L 248,206 L 246,201 L 224,192 L 174,217 L 164,219 L 108,192 Z" fill="#676767" fill-rule="evenodd"/>
+  </g>
+
+  <g transform="translate(514 16) scale(.2857142857)">
+    <rect x="8" y="8" width="320" height="320" rx="52" fill="#111111" stroke="#303030" stroke-width="2"/>
+    <path d="M 280,125 L 276,123 L 242,124 L 233,128 L 159,236 L 158,242 L 191,243 L 205,237 L 223,214 L 279,130 Z" fill="#eeeeee" fill-rule="evenodd"/>
+    <path d="M 47,124 L 47,127 L 73,155 L 198,155 L 217,131 L 215,124 L 200,123 Z" fill="#e5e5e5" fill-rule="evenodd"/>
+    <path d="M 90,173 L 92,178 L 109,197 L 117,202 L 170,201 L 187,177 L 184,172 L 93,171 Z" fill="#b0b0b0" fill-rule="evenodd"/>
+  </g>
+
+  <g transform="translate(739 16) scale(.2857142857)">
+    <rect x="8" y="8" width="320" height="320" rx="52" fill="#111111" stroke="#303030" stroke-width="2"/>
+    <path d="M 211,95 L 194,89 L 179,88 L 157,96 L 135,117 L 126,132 L 114,146 L 94,163 L 98,177 L 116,185 L 112,198 L 105,205 L 104,215 L 111,218 L 125,219 L 132,224 L 128,233 L 114,243 L 116,251 L 124,254 L 174,256 L 202,248 L 214,240 L 232,219 L 239,205 L 243,187 L 244,150 L 240,130 L 235,119 L 225,106 Z M 231,157 L 230,161 L 221,171 L 216,174 L 209,173 L 212,163 L 219,156 L 229,155 Z M 163,158 L 166,155 L 183,157 L 191,164 L 194,173 L 192,175 L 180,175 L 173,171 Z" fill="#4b4b4b" fill-rule="evenodd"/>
+    <path d="M 201,92 L 188,90 L 173,91 L 151,102 L 137,117 L 115,150 L 132,179 L 132,194 L 136,216 L 144,223 L 143,236 L 147,248 L 152,252 L 178,253 L 189,251 L 207,243 L 226,225 L 234,213 L 239,199 L 243,178 L 243,153 L 235,122 L 223,106 Z M 232,156 L 232,160 L 222,172 L 213,176 L 208,174 L 211,162 L 218,155 L 229,153 Z M 161,157 L 167,153 L 183,155 L 191,162 L 196,173 L 193,176 L 179,176 L 165,165 Z" fill="#9a9a9a" fill-rule="evenodd"/>
+    <path d="M 176,92 L 168,94 L 151,104 L 137,120 L 132,133 L 136,135 L 143,149 L 143,154 L 151,169 L 152,178 L 158,188 L 163,215 L 169,227 L 170,239 L 174,244 L 172,248 L 186,250 L 213,237 L 230,217 L 238,197 L 242,158 L 238,135 L 233,122 L 226,112 L 217,103 L 202,94 Z M 232,152 L 233,161 L 225,172 L 216,177 L 209,177 L 206,174 L 210,161 L 217,154 L 224,151 Z M 159,154 L 162,151 L 175,151 L 185,154 L 192,161 L 197,175 L 195,177 L 175,176 L 162,164 Z" fill="#ededed" fill-rule="evenodd"/>
+  </g>
+
+  <text class="name" x="112" y="138" text-anchor="middle">NEXUS</text>
+  <text class="sub" x="112" y="160" text-anchor="middle">Engineering gate</text>
+
+  <text class="name" x="337" y="138" text-anchor="middle">Component Vault</text>
+  <text class="sub" x="337" y="160" text-anchor="middle">Component governance</text>
+
+  <text class="name" x="562" y="138" text-anchor="middle">Velocity</text>
+  <text class="sub" x="562" y="160" text-anchor="middle">Performance analysis</text>
+
+  <text class="name" x="787" y="138" text-anchor="middle">SPECTER</text>
+  <text class="sub" x="787" y="160" text-anchor="middle">Application security</text>
+</svg>
