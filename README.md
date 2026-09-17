@@ -6,9 +6,9 @@
 
 # Wess Yu
 
-**Front-End Developer · React · Next.js · TypeScript · UI/UX · Developer Tooling**
+**Front-End Developer · Developer Tooling · Performance · Application Security**
 
-I build web products with careful UI engineering and developer tools that make front-end codebases easier to maintain, measure and evolve.
+I started by building interfaces. Today I also build the engineering tools around them — code governance, performance analysis, security checks and CI gates for JavaScript/TypeScript projects.
 
 [Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-cruz2001/) · [Email](mailto:wess.c@proton.me)
 
@@ -16,24 +16,79 @@ I build web products with careful UI engineering and developer tools that make f
 
 ---
 
-## Featured work
+## Engineering toolkit
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <a href="https://github.com/WessYu/NEXUS">
+        <img src="https://raw.githubusercontent.com/WessYu/NEXUS/main/assets/icon.svg" width="82" alt="NEXUS" />
+      </a>
+      <br><br>
+      <strong>NEXUS</strong>
+      <br>
+      <sub>Unified engineering gate</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/WessYu/component-vault">
+        <img src="https://raw.githubusercontent.com/WessYu/component-vault/master/assets/icon.svg" width="82" alt="Component Vault" />
+      </a>
+      <br><br>
+      <strong>Component Vault</strong>
+      <br>
+      <sub>Quality & governance</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/WessYu/velocity">
+        <img src="https://raw.githubusercontent.com/WessYu/velocity/main/assets/icon.svg" width="82" alt="Velocity" />
+      </a>
+      <br><br>
+      <strong>Velocity</strong>
+      <br>
+      <sub>Performance evidence</sub>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/WessYu/SPECTER">
+        <img src="https://raw.githubusercontent.com/WessYu/SPECTER/main/assets/icon.svg" width="82" alt="SPECTER" />
+      </a>
+      <br><br>
+      <strong>SPECTER</strong>
+      <br>
+      <sub>Defensive AppSec</sub>
+    </td>
+  </tr>
+</table>
+
+### NEXUS
+
+**One engineering gate for code quality, performance and application security.**
+
+NEXUS orchestrates the three independent engines below through one CLI, normalizes their results and applies repository-level policy without hiding the evidence produced by each tool.
+
+```text
+Component Vault ── quality ──────┐
+Velocity ───────── performance ──┼── NEXUS ── engineering gate
+SPECTER ────────── security ─────┘
+```
+
+```bash
+npm install -D @wess2001/nexus
+npx nexus check .
+```
+
+[**Source ↗**](https://github.com/WessYu/NEXUS) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/nexus)
+
+---
 
 ### Component Vault
 
-**Component workspace + AST-based governance for front-end codebases.**
+**AST-based component governance and design-system tooling for real codebases.**
 
-Component Vault combines a Next.js/React workspace with the **Component Vault Guard**, a TypeScript AST-based engine that turns component and design-system rules into executable checks.
-
-- semantic rules across TypeScript, TSX, JavaScript and JSX
-- baseline support for gradual adoption in existing codebases
-- PR reporting, deterministic autofix and CI integration
-- CLI distributed through npm/NPX
-
-```bash
-npx @wess2001/component-vault@latest init
-npx component-vault analyze
-npx component-vault scan
-```
+- TypeScript Compiler API analysis across TS/TSX/JS/JSX
+- repository-owned semantic and component policies
+- brownfield baselines and PR enforcement
+- deterministic autofix with guarded import resolution
+- CLI, CI workflow and full-stack component workspace
 
 [**Live product ↗**](https://component-vault-dun.vercel.app/) · [**Source ↗**](https://github.com/WessYu/component-vault) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/component-vault)
 
@@ -41,33 +96,42 @@ npx component-vault scan
 
 ### Velocity
 
-**Performance diagnostics and regression control for JavaScript/TypeScript projects.**
+**Performance diagnostics and regression control from source code to real runtime behavior.**
 
-Velocity is an npm CLI and ESM API for collecting performance evidence from source code, build artifacts, Chromium runs, benchmarks and Node.js profiles.
-
-- AST-based static analysis and build measurement
-- FCP, LCP, CLS, TBT and TTFB from real browser runs
-- compatible baseline comparisons and CI regression gates
-- reviewable optimization plans with rollback safeguards
-- JSON/SARIF output, ESM API and TypeScript types
-
-```bash
-npm install --save-dev @wess2001/velocity
-npx velocity analyze
-npx velocity load http://localhost:4173 --device mobile --runs 3
-```
+- parser-backed static analysis with lexical binding awareness
+- build and emitted-asset measurement
+- real Chromium lab metrics including FCP, LCP, CLS, TBT and TTFB
+- benchmark and Node.js profiling workflows
+- compatible baselines, CI regression gates, JSON and SARIF
+- reviewable optimization plans with validation and rollback safeguards
 
 [**Source ↗**](https://github.com/WessYu/velocity) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/velocity)
 
 ---
 
-## Selected work
+### SPECTER
+
+**Defensive application security from source to production.**
+
+- source, secrets, dependencies and build-output analysis
+- passive checks for deployed applications
+- authorized, bounded active security testing
+- stable findings, baselines and security regression gates
+- JSON/SARIF reporting plus API and dashboard architecture
+- explicit authorization, request budgets, rate limiting and non-destructive boundaries for active checks
+
+[**Source ↗**](https://github.com/WessYu/SPECTER) · [**npm ↗**](https://www.npmjs.com/package/@wess2001/specter)
+
+---
+
+## Selected product work
 
 | Project | What it demonstrates | Main stack |
 | --- | --- | --- |
-| [**Component Vault**](https://github.com/WessYu/component-vault) | Component governance, AST analysis, npm CLI, CI and full-stack product work | Next.js · React · TypeScript · Convex · Node.js |
-| [**Velocity**](https://github.com/WessYu/velocity) | Performance analysis, browser measurement, benchmarking, regression gates and safe optimization | Node.js · TypeScript · Babel AST · Chromium · GitHub Actions |
-| [**DevMatch**](https://github.com/WessYu/DEVMATCH) | Full-stack product architecture, external APIs, search, matching, persistence and chat | Next.js · TypeScript · PostgreSQL · Playwright |
+| [**Component Vault**](https://github.com/WessYu/component-vault) | Product UI, full-stack architecture, component governance and developer tooling | Next.js · React · TypeScript · Convex · Node.js |
+| [**NEXUS**](https://github.com/WessYu/NEXUS) | Multi-engine orchestration, normalized reports, policy evaluation and release integration | Node.js · JavaScript · JSON Schema · CI |
+| [**SPECTER**](https://github.com/WessYu/SPECTER) | Defensive AppSec, scanning architecture, API persistence and security gates | TypeScript · Fastify · PostgreSQL · Prisma · Next.js |
+| [**Velocity**](https://github.com/WessYu/velocity) | Static analysis, browser measurement, benchmarking and regression control | Node.js · TypeScript · Babel AST · Chromium |
 | [**Differenza**](https://github.com/WessYu/differenza-redesign) | UI/UX audit, visual redesign, responsive implementation and content hierarchy | Front-End · Responsive UI · UI/UX |
 
 [**Explore all repositories →**](https://github.com/WessYu?tab=repositories)
@@ -83,7 +147,9 @@ npx velocity load http://localhost:4173 --device mobile --runs 3
   <img src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Tailwind-111111?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Fastify-111111?style=for-the-badge&logo=fastify&logoColor=FFFFFF" alt="Fastify" />
   <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Prisma-111111?style=for-the-badge&logo=prisma&logoColor=FFFFFF" alt="Prisma" />
   <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright" />
   <img src="https://img.shields.io/badge/GitHub_Actions-111111?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Figma-111111?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma" />
@@ -91,17 +157,19 @@ npx velocity load http://localhost:4173 --device mobile --runs 3
 
 ---
 
-## Engineering approach
+## How I build
 
-My front-end work starts with the interface, but it does not stop there. I care about component APIs, accessibility, real content, edge cases, testing, delivery and what happens when a codebase grows.
+My base is still front-end engineering: interface quality, component APIs, accessibility, responsive behavior and product polish.
 
-That is why my projects span both **product development** and **developer tooling**: React/Next.js interfaces, APIs and data on one side; component governance, static analysis and performance evidence on the other.
+The difference is that I now follow those problems further down the stack. If maintainability needs static analysis, I build the analyzer. If performance needs evidence, I measure the build and browser. If security needs a repeatable gate, I turn the checks into tooling and CI policy.
+
+That progression is what connects my current work: **product engineering on the surface, engineering systems underneath it.**
 
 ---
 
 ## Open to opportunities
 
-I'm looking for a **Junior Front-End Developer** role where I can contribute to real products with React, Next.js and TypeScript, learn through code review and collaborate with engineers and product/design teams.
+I'm looking for a **Junior Front-End Developer / Software Developer** role where I can contribute with React, Next.js and TypeScript while continuing to grow across tooling, performance, backend fundamentals and application security.
 
 Remote opportunities are especially welcome.
 
