@@ -18,46 +18,19 @@ I started by building interfaces. Today I also build the engineering tools aroun
 
 ## Engineering toolkit
 
-<table width="100%">
-  <tr>
-    <td align="center" valign="top" width="25%">
-      <a href="https://github.com/WessYu/NEXUS">
-        <img src="https://raw.githubusercontent.com/WessYu/NEXUS/main/assets/icon.svg" width="78" alt="NEXUS" />
-      </a>
-      <br><br>
-      <strong>NEXUS</strong>
-      <br>
-      <sub>Engineering gate</sub>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <a href="https://github.com/WessYu/component-vault">
-        <img src="https://raw.githubusercontent.com/WessYu/component-vault/master/assets/icon.svg" width="78" alt="Component Vault" />
-      </a>
-      <br><br>
-      <strong>Component Vault</strong>
-      <br>
-      <sub>Component governance</sub>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <a href="https://github.com/WessYu/velocity">
-        <img src="https://raw.githubusercontent.com/WessYu/velocity/main/assets/icon.svg" width="78" alt="Velocity" />
-      </a>
-      <br><br>
-      <strong>Velocity</strong>
-      <br>
-      <sub>Performance analysis</sub>
-    </td>
-    <td align="center" valign="top" width="25%">
-      <a href="https://github.com/WessYu/SPECTER">
-        <img src="https://raw.githubusercontent.com/WessYu/SPECTER/main/assets/icon.svg" width="78" alt="SPECTER" />
-      </a>
-      <br><br>
-      <strong>SPECTER</strong>
-      <br>
-      <sub>Application security</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/engineering-toolkit.svg" alt="NEXUS, Component Vault, Velocity and SPECTER" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/WessYu/NEXUS"><strong>NEXUS</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/WessYu/component-vault"><strong>Component Vault</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/WessYu/velocity"><strong>Velocity</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/WessYu/SPECTER"><strong>SPECTER</strong></a>
+</p>
 
 ### NEXUS
 
