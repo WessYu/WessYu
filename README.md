@@ -1,14 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/WessYu-cover.svg" alt="Wess Yu — Front-End Developer" width="100%">
+<img src="https://raw.githubusercontent.com/WessYu/WessYu/main/readme-assets/WessYu-cover.svg" alt="WessYu — Software Developer" width="100%">
 
 <br>
 
-# Wess Yu
+**Software Developer · React / TypeScript · Developer Tooling · Application Security**
 
-**Front-End Developer · Developer Tooling · Performance · Application Security**
-
-I started by building interfaces. Today I also build the engineering tools around them — code governance, performance analysis, security checks and CI gates for JavaScript/TypeScript projects.
+I started in front-end and kept following the problems further down the stack. Today I build web products and the tooling around them — component governance, performance checks, security scans and CI gates.
 
 [Portfolio](https://wessyu-arquivo.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wesley-cruz2001/) · [Email](mailto:wess.c@proton.me)
 
@@ -142,7 +140,7 @@ That progression is what connects my current work: **product engineering on the 
 
 ## Open to opportunities
 
-I'm looking for a **Junior Front-End Developer / Software Developer** role where I can contribute with React, Next.js and TypeScript while continuing to grow across tooling, performance, backend fundamentals and application security.
+I'm looking for a **Junior Software Developer / Front-End / Full-Stack** role where I can contribute with React, TypeScript and Node.js while continuing to grow across backend systems, developer tooling and application security.
 
 Remote opportunities are especially welcome.
 
