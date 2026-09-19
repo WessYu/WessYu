@@ -1,1 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="512" viewBox="36 12 1464 488" preserveAspectRatio="xMidYMid meet"><defs><linearGradient id="bg" x1="0" y1="0" x2="1536" y2="512" gradientUnits="userSpaceOnUse"><stop stop-color="#070707"/><stop offset="1" stop-color="#151515"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#000" flood-opacity=".55"/></filter></defs><rect width="1536" height="512" fill="url(#bg)"/><rect x="54" y="48" width="1428" height="416" rx="18" fill="#0d0d0d" stroke="#292929"/><rect x="54" y="48" width="1428" height="54" rx="18" fill="#141414"/><path d="M54 84H1482" stroke="#292929"/><circle cx="83" cy="75" r="7" fill="#3a3a3a"/><circle cx="107" cy="75" r="7" fill="#3a3a3a"/><circle cx="131" cy="75" r="7" fill="#3a3a3a"/><g filter="url(#shadow)"><text x="106" y="170" fill="#707070" font-family="monospace" font-size="24">$</text><text x="140" y="170" fill="#ededed" font-family="monospace" font-size="24">npx wessyu</text><text x="106" y="235" fill="#f5f5f5" font-family="Arial, sans-serif" font-size="48" font-weight="700">WESSYU</text><text x="106" y="275" fill="#8f8f8f" font-family="monospace" font-size="22">front-end developer</text><text x="106" y="335" fill="#d8d8d8" font-family="monospace" font-size="20">&gt; building interfaces, systems &amp; tools.</text><text x="106" y="374" fill="#707070" font-family="monospace" font-size="18">React  ·  TypeScript  ·  Vite  ·  Tailwind</text><text x="106" y="424" fill="#555555" font-family="monospace" font-size="17">~/wessyu</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">WessYu — developer profile banner</title>
+  <desc id="desc">Dark terminal-style GitHub profile banner for WessYu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080b"/>
+      <stop offset="0.52" stop-color="#090d11"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11171d" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#080c10" stop-opacity=".99"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7f8d9d" stop-opacity=".66"/>
+      <stop offset="0.4" stop-color="#263442" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#111820" stop-opacity=".85"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7d8b99" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="b"/>
+      <feOffset dy="12" result="o"/>
+      <feColorMatrix in="o" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .micro{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:3px;fill:#798492}
+    </style>
+  </defs>
+
+  <rect width="1440" height="480" fill="url(#bg)"/>
+  <rect width="1440" height="480" fill="url(#grid)"/>
+  <ellipse cx="735" cy="20" rx="340" ry="105" fill="#8fb5d4" opacity=".055" filter="url(#softGlow)"/>
+
+  <g class="micro">
+    <text x="30" y="34">BUILD</text><text x="30" y="54">BETTER</text><text x="30" y="74">THINGS</text>
+    <line x1="30" y1="91" x2="58" y2="91" stroke="#8794a1" stroke-opacity=".55"/>
+    <text x="1350" y="34" text-anchor="end">CODE</text><text x="1350" y="54" text-anchor="end">DESIGN</text><text x="1350" y="74" text-anchor="end">DEPLOY</text><text x="1350" y="94" text-anchor="end">REPEAT</text>
+    <line x1="1324" y1="111" x2="1350" y2="111" stroke="#8794a1" stroke-opacity=".55"/>
+  </g>
+
+  <g opacity=".5" stroke="#8794a1" fill="none">
+    <path d="M56 158v42M56 248v42"/>
+    <path d="M48 224l-13 13 13 13M62 224l13 13-13 13"/>
+    <path d="M1379 158v42M1379 252v42"/>
+  </g>
+  <g fill="#8190a0" opacity=".52">
+    <circle cx="1348" cy="221" r="1.8"/><circle cx="1366" cy="221" r="1.8"/><circle cx="1384" cy="221" r="1.8"/>
+    <circle cx="1348" cy="239" r="1.8"/><circle cx="1366" cy="239" r="1.8"/><circle cx="1384" cy="239" r="1.8"/>
+    <circle cx="1348" cy="257" r="1.8"/><circle cx="1366" cy="257" r="1.8"/><circle cx="1384" cy="257" r="1.8"/>
+  </g>
+
+  <path d="M0 352L77 326 118 344 173 306 237 345 291 334 351 373 0 480Z" fill="#0b1015"/>
+  <path d="M0 367L67 343 124 371 194 331 246 365 305 351 385 397 0 480Z" fill="#111820" opacity=".88"/>
+  <path d="M1440 353L1365 335 1304 362 1250 327 1197 367 1132 351 1063 392 1440 480Z" fill="#0b1015"/>
+  <path d="M1440 370L1368 350 1319 380 1251 346 1185 383 1112 365 1038 407 1440 480Z" fill="#111820" opacity=".88"/>
+  <g stroke="#4b5967" stroke-opacity=".28" fill="none" stroke-width="1">
+    <path d="M0 367l67-24 57 28 70-40 52 34 59-14 80 46"/><path d="M1440 370l-72-20-49 30-68-34-66 37-73-18-74 42"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="244" y="93" width="952" height="300" rx="15" fill="url(#panel)" stroke="url(#rim)" stroke-width="1.2"/>
+    <rect x="244" y="93" width="952" height="45" rx="15" fill="#12181e"/>
+    <path d="M244 123h952" stroke="#25313c" stroke-opacity=".65"/>
+    <circle cx="266" cy="115" r="5.5" fill="#ff5f57"/><circle cx="284" cy="115" r="5.5" fill="#febc2e"/><circle cx="302" cy="115" r="5.5" fill="#28c840"/>
+    <text x="1128" y="119" class="mono" font-size="13" fill="#75808c">~/wessyu</text>
+    <rect x="1160" y="106" width="12" height="14" rx="2" fill="none" stroke="#72808e" stroke-width="1.2"/>
+    <rect x="1164" y="102" width="12" height="14" rx="2" fill="none" stroke="#72808e" stroke-width="1.2"/>
+
+    <g class="mono">
+      <text x="284" y="177" font-size="16"><tspan fill="#7b8792">$</tspan><tspan dx="12" fill="#d8dee5">npx wessyu</tspan></text>
+      <rect x="284" y="196" width="2" height="35" fill="#7f8b97" opacity=".75"/>
+      <text x="300" y="229" font-size="33" font-weight="700" fill="#f2f4f7" letter-spacing="1">WESSYU</text>
+      <text x="300" y="254" font-size="15" fill="#707a86">front-end developer</text>
+      <text x="284" y="296" font-size="16" fill="#dfe4ea">&gt; building interfaces, systems &amp; tools.</text>
+      <text x="300" y="327" font-size="14" fill="#6d7782">React · TypeScript · Vite · Tailwind</text>
+      <text x="284" y="362" font-size="13" fill="#5c6670">~/wessyu</text>
+    </g>
+
+    <line x1="1090" y1="156" x2="1090" y2="355" stroke="#32404d" stroke-opacity=".65"/>
+    <g transform="translate(1120 174)" class="mono">
+      <g>
+        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
+        <circle cx="22" cy="22" r="3" fill="#9fb2c2"/>
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2"/>
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2" transform="rotate(60 22 22)"/>
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2" transform="rotate(120 22 22)"/>
+      </g>
+      <g transform="translate(0 54)">
+        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
+        <rect x="10" y="10" width="24" height="24" rx="4" fill="#8799a8"/>
+        <text x="22" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#091017">TS</text>
+      </g>
+      <g transform="translate(0 108)">
+        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
+        <path d="M12 12h20l-10 21z" fill="#8799a8"/>
+        <path d="M22 12l-4 10h7l-5 11 12-15h-7l4-6z" fill="#d3dae1" opacity=".88"/>
+      </g>
+      <g transform="translate(0 162)">
+        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
+        <path d="M9 18c4-6 9-8 15-5 3 2 5 2 8-1-4 7-9 9-15 6-3-2-5-2-8 0zm4 10c4-6 9-8 15-5 3 2 5 2 8-1-4 7-9 9-15 6-3-2-5-2-8 0z" fill="#9baaba"/>
+      </g>
+    </g>
+  </g>
+
+  <g class="micro" opacity=".78">
+    <text x="30" y="421">IDEAS</text><text x="30" y="441">INTERFACES</text><text x="30" y="461">SYSTEMS · TOOLS</text>
+    <line x1="424" y1="438" x2="486" y2="438" stroke="#62707e" stroke-opacity=".55"/>
+    <text x="516" y="442">CRAFTED WITH CODE</text>
+    <line x1="672" y1="438" x2="704" y2="438" stroke="#62707e" stroke-opacity=".55"/>
+    <g transform="translate(720 438)" stroke="#8a99a7" fill="none" stroke-width="1.2">
+      <path d="M0-15l14 8v16L0 17l-14-8V-7z"/><path d="M-14-7L0 1l14-8M0 1v16"/>
+    </g>
+    <line x1="736" y1="438" x2="768" y2="438" stroke="#62707e" stroke-opacity=".55"/>
+    <text x="798" y="442">BUILT FOR WHAT'S NEXT</text>
+    <line x1="985" y1="438" x2="1047" y2="438" stroke="#62707e" stroke-opacity=".55"/>
+  </g>
+</svg>
