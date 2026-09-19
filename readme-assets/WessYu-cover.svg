@@ -1,124 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
-  <title id="title">WessYu — developer profile banner</title>
-  <desc id="desc">Dark terminal-style GitHub profile banner for WessYu.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">WessYu — Software Developer</title>
+  <desc id="desc">GitHub profile banner for WessYu, focused on software development, developer tooling, performance and application security.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05080b"/>
-      <stop offset="0.52" stop-color="#090d11"/>
-      <stop offset="1" stop-color="#05070a"/>
+      <stop offset="0" stop-color="#07090c"/>
+      <stop offset=".55" stop-color="#0b0e12"/>
+      <stop offset="1" stop-color="#07090c"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#11171d" stop-opacity=".97"/>
-      <stop offset="1" stop-color="#080c10" stop-opacity=".99"/>
-    </linearGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7f8d9d" stop-opacity=".66"/>
-      <stop offset="0.4" stop-color="#263442" stop-opacity=".72"/>
-      <stop offset="1" stop-color="#111820" stop-opacity=".85"/>
+      <stop offset="0" stop-color="#11151a"/>
+      <stop offset="1" stop-color="#090c10"/>
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#7d8b99" stroke-opacity=".055" stroke-width="1"/>
+      <path d="M32 0H0V32" fill="none" stroke="#8b98a6" stroke-opacity=".04"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="b"/>
-      <feOffset dy="12" result="o"/>
-      <feColorMatrix in="o" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 0"/>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="20"/>
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#000" flood-opacity=".45"/>
     </filter>
     <style>
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
-      .micro{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;letter-spacing:3px;fill:#798492}
+      .sans{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .muted{fill:#76808b}
+      .soft{fill:#aeb6bf}
+      .white{fill:#f2f4f6}
     </style>
   </defs>
 
-  <rect width="1440" height="480" fill="url(#bg)"/>
-  <rect width="1440" height="480" fill="url(#grid)"/>
-  <ellipse cx="735" cy="20" rx="340" ry="105" fill="#8fb5d4" opacity=".055" filter="url(#softGlow)"/>
-
-  <g class="micro">
-    <text x="30" y="34">BUILD</text><text x="30" y="54">BETTER</text><text x="30" y="74">THINGS</text>
-    <line x1="30" y1="91" x2="58" y2="91" stroke="#8794a1" stroke-opacity=".55"/>
-    <text x="1350" y="34" text-anchor="end">CODE</text><text x="1350" y="54" text-anchor="end">DESIGN</text><text x="1350" y="74" text-anchor="end">DEPLOY</text><text x="1350" y="94" text-anchor="end">REPEAT</text>
-    <line x1="1324" y1="111" x2="1350" y2="111" stroke="#8794a1" stroke-opacity=".55"/>
-  </g>
-
-  <g opacity=".5" stroke="#8794a1" fill="none">
-    <path d="M56 158v42M56 248v42"/>
-    <path d="M48 224l-13 13 13 13M62 224l13 13-13 13"/>
-    <path d="M1379 158v42M1379 252v42"/>
-  </g>
-  <g fill="#8190a0" opacity=".52">
-    <circle cx="1348" cy="221" r="1.8"/><circle cx="1366" cy="221" r="1.8"/><circle cx="1384" cy="221" r="1.8"/>
-    <circle cx="1348" cy="239" r="1.8"/><circle cx="1366" cy="239" r="1.8"/><circle cx="1384" cy="239" r="1.8"/>
-    <circle cx="1348" cy="257" r="1.8"/><circle cx="1366" cy="257" r="1.8"/><circle cx="1384" cy="257" r="1.8"/>
-  </g>
-
-  <path d="M0 352L77 326 118 344 173 306 237 345 291 334 351 373 0 480Z" fill="#0b1015"/>
-  <path d="M0 367L67 343 124 371 194 331 246 365 305 351 385 397 0 480Z" fill="#111820" opacity=".88"/>
-  <path d="M1440 353L1365 335 1304 362 1250 327 1197 367 1132 351 1063 392 1440 480Z" fill="#0b1015"/>
-  <path d="M1440 370L1368 350 1319 380 1251 346 1185 383 1112 365 1038 407 1440 480Z" fill="#111820" opacity=".88"/>
-  <g stroke="#4b5967" stroke-opacity=".28" fill="none" stroke-width="1">
-    <path d="M0 367l67-24 57 28 70-40 52 34 59-14 80 46"/><path d="M1440 370l-72-20-49 30-68-34-66 37-73-18-74 42"/>
-  </g>
+  <rect width="1440" height="420" fill="url(#bg)"/>
+  <rect width="1440" height="420" fill="url(#grid)"/>
 
   <g filter="url(#shadow)">
-    <rect x="244" y="93" width="952" height="300" rx="15" fill="url(#panel)" stroke="url(#rim)" stroke-width="1.2"/>
-    <rect x="244" y="93" width="952" height="45" rx="15" fill="#12181e"/>
-    <path d="M244 123h952" stroke="#25313c" stroke-opacity=".65"/>
-    <circle cx="266" cy="115" r="5.5" fill="#ff5f57"/><circle cx="284" cy="115" r="5.5" fill="#febc2e"/><circle cx="302" cy="115" r="5.5" fill="#28c840"/>
-    <text x="1128" y="119" class="mono" font-size="13" fill="#75808c">~/wessyu</text>
-    <rect x="1160" y="106" width="12" height="14" rx="2" fill="none" stroke="#72808e" stroke-width="1.2"/>
-    <rect x="1164" y="102" width="12" height="14" rx="2" fill="none" stroke="#72808e" stroke-width="1.2"/>
+    <rect x="96" y="58" width="1248" height="304" rx="18" fill="url(#panel)" stroke="#303740"/>
+    <rect x="96" y="58" width="1248" height="46" rx="18" fill="#12171c"/>
+    <path d="M96 104h1248" stroke="#252c33"/>
+    <circle cx="120" cy="81" r="5.5" fill="#ff5f57"/>
+    <circle cx="139" cy="81" r="5.5" fill="#febc2e"/>
+    <circle cx="158" cy="81" r="5.5" fill="#28c840"/>
 
-    <g class="mono">
-      <text x="284" y="177" font-size="16"><tspan fill="#7b8792">$</tspan><tspan dx="12" fill="#d8dee5">npx wessyu</tspan></text>
-      <rect x="284" y="196" width="2" height="35" fill="#7f8b97" opacity=".75"/>
-      <text x="300" y="229" font-size="33" font-weight="700" fill="#f2f4f7" letter-spacing="1">WESSYU</text>
-      <text x="300" y="254" font-size="15" fill="#707a86">front-end developer</text>
-      <text x="284" y="296" font-size="16" fill="#dfe4ea">&gt; building interfaces, systems &amp; tools.</text>
-      <text x="300" y="327" font-size="14" fill="#6d7782">React · TypeScript · Vite · Tailwind</text>
-      <text x="284" y="362" font-size="13" fill="#5c6670">~/wessyu</text>
+    <text x="116" y="146" class="mono muted" font-size="15">$ whoami</text>
+    <text x="116" y="205" class="sans white" font-size="48" font-weight="750" letter-spacing="1.2">WESSYU</text>
+    <text x="116" y="238" class="mono soft" font-size="18">software developer</text>
+
+    <text x="116" y="284" class="mono white" font-size="18">&gt; interfaces · tooling · performance · security</text>
+    <text x="116" y="320" class="mono muted" font-size="14">React / TypeScript · Node.js · PostgreSQL · CI</text>
+
+    <line x1="870" y1="130" x2="870" y2="326" stroke="#2c343c"/>
+
+    <text x="906" y="146" class="mono muted" font-size="12" letter-spacing="1.4">SYSTEMS I BUILD</text>
+
+    <!-- NEXUS -->
+    <g transform="translate(906 170)">
+      <rect width="64" height="64" rx="12" fill="#111111" stroke="#303030"/>
+      <g transform="scale(.19)">
+        <path d="M 96,92 L 96,219 L 132,250 L 136,250 L 137,184 L 139,182 L 190,224 L 241,270 L 246,271 L 246,222 L 99,92 Z" fill="#666666"/>
+        <path d="M 205,92 L 204,177 L 207,183 L 246,215 L 247,125 L 210,93 Z" fill="#666666"/>
+        <path d="M 97,95 L 97,216 L 134,247 L 135,180 L 138,178 L 241,267 L 244,267 L 243,223 Z" fill="#ededed"/>
+        <path d="M 208,96 L 208,180 L 243,211 L 244,125 Z" fill="#ededed"/>
+      </g>
+      <text x="32" y="82" text-anchor="middle" class="mono soft" font-size="10">NEXUS</text>
     </g>
 
-    <line x1="1090" y1="156" x2="1090" y2="355" stroke="#32404d" stroke-opacity=".65"/>
-    <g transform="translate(1120 174)" class="mono">
-      <g>
-        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
-        <circle cx="22" cy="22" r="3" fill="#9fb2c2"/>
-        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2"/>
-        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2" transform="rotate(60 22 22)"/>
-        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#9fb2c2" stroke-width="1.2" transform="rotate(120 22 22)"/>
+    <!-- VAULT -->
+    <g transform="translate(1000 170)">
+      <rect width="64" height="64" rx="12" fill="#111111" stroke="#303030"/>
+      <g transform="scale(.19)">
+        <path d="M 82,132 L 82,135 L 87,139 L 163,175 L 168,175 L 185,168 L 251,135 L 250,131 L 167,92 L 140,103 Z" fill="#e9e9e9"/>
+        <path d="M 83,168 L 90,175 L 164,210 L 175,207 L 249,170 L 247,166 L 227,155 L 170,182 L 163,182 L 108,155 Z" fill="#a5a5a5"/>
+        <path d="M 85,202 L 86,207 L 163,244 L 169,244 L 248,206 L 246,201 L 224,192 L 174,217 L 164,219 L 108,192 Z" fill="#676767"/>
       </g>
-      <g transform="translate(0 54)">
-        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
-        <rect x="10" y="10" width="24" height="24" rx="4" fill="#8799a8"/>
-        <text x="22" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="#091017">TS</text>
-      </g>
-      <g transform="translate(0 108)">
-        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
-        <path d="M12 12h20l-10 21z" fill="#8799a8"/>
-        <path d="M22 12l-4 10h7l-5 11 12-15h-7l4-6z" fill="#d3dae1" opacity=".88"/>
-      </g>
-      <g transform="translate(0 162)">
-        <rect width="44" height="44" rx="8" fill="#0a0f14" stroke="#283542"/>
-        <path d="M9 18c4-6 9-8 15-5 3 2 5 2 8-1-4 7-9 9-15 6-3-2-5-2-8 0zm4 10c4-6 9-8 15-5 3 2 5 2 8-1-4 7-9 9-15 6-3-2-5-2-8 0z" fill="#9baaba"/>
-      </g>
+      <text x="32" y="82" text-anchor="middle" class="mono soft" font-size="10">VAULT</text>
     </g>
-  </g>
 
-  <g class="micro" opacity=".78">
-    <text x="30" y="421">IDEAS</text><text x="30" y="441">INTERFACES</text><text x="30" y="461">SYSTEMS · TOOLS</text>
-    <line x1="424" y1="438" x2="486" y2="438" stroke="#62707e" stroke-opacity=".55"/>
-    <text x="516" y="442">CRAFTED WITH CODE</text>
-    <line x1="672" y1="438" x2="704" y2="438" stroke="#62707e" stroke-opacity=".55"/>
-    <g transform="translate(720 438)" stroke="#8a99a7" fill="none" stroke-width="1.2">
-      <path d="M0-15l14 8v16L0 17l-14-8V-7z"/><path d="M-14-7L0 1l14-8M0 1v16"/>
+    <!-- VELOCITY -->
+    <g transform="translate(1094 170)">
+      <rect width="64" height="64" rx="12" fill="#111111" stroke="#303030"/>
+      <g transform="scale(.19)">
+        <path d="M 280,125 L 276,123 L 242,124 L 233,128 L 159,236 L 158,242 L 191,243 L 205,237 L 223,214 L 279,130 Z" fill="#eeeeee"/>
+        <path d="M 47,124 L 47,127 L 73,155 L 198,155 L 217,131 L 215,124 L 200,123 Z" fill="#e5e5e5"/>
+        <path d="M 90,173 L 92,178 L 109,197 L 117,202 L 170,201 L 187,177 L 184,172 L 93,171 Z" fill="#b0b0b0"/>
+      </g>
+      <text x="32" y="82" text-anchor="middle" class="mono soft" font-size="10">VELOCITY</text>
     </g>
-    <line x1="736" y1="438" x2="768" y2="438" stroke="#62707e" stroke-opacity=".55"/>
-    <text x="798" y="442">BUILT FOR WHAT'S NEXT</text>
-    <line x1="985" y1="438" x2="1047" y2="438" stroke="#62707e" stroke-opacity=".55"/>
+
+    <!-- SPECTER -->
+    <g transform="translate(1188 170)">
+      <rect width="64" height="64" rx="12" fill="#111111" stroke="#303030"/>
+      <g transform="scale(.19)">
+        <path d="M 201,92 L 188,90 L 173,91 L 151,102 L 137,117 L 115,150 L 132,179 L 132,194 L 136,216 L 144,223 L 143,236 L 147,248 L 152,252 L 178,253 L 189,251 L 207,243 L 226,225 L 234,213 L 239,199 L 243,178 L 243,153 L 235,122 L 223,106 Z M 232,156 L 232,160 L 222,172 L 213,176 L 208,174 L 211,162 L 218,155 L 229,153 Z M 161,157 L 167,153 L 183,155 L 191,162 L 196,173 L 193,176 L 179,176 L 165,165 Z" fill="#9a9a9a"/>
+        <path d="M 176,92 L 168,94 L 151,104 L 137,120 L 132,133 L 136,135 L 143,149 L 143,154 L 151,169 L 152,178 L 158,188 L 163,215 L 169,227 L 170,239 L 174,244 L 172,248 L 186,250 L 213,237 L 230,217 L 238,197 L 242,158 L 238,135 L 233,122 L 226,112 L 217,103 L 202,94 Z M 232,152 L 233,161 L 225,172 L 216,177 L 209,177 L 206,174 L 210,161 L 217,154 L 224,151 Z M 159,154 L 162,151 L 175,151 L 185,154 L 192,161 L 197,175 L 195,177 L 175,176 L 162,164 Z" fill="#ededed"/>
+      </g>
+      <text x="32" y="82" text-anchor="middle" class="mono soft" font-size="10">SPECTER</text>
+    </g>
+
+    <text x="906" y="298" class="mono muted" font-size="12">quality · performance · security</text>
+    <text x="906" y="322" class="mono soft" font-size="13">one engineering workflow</text>
   </g>
 </svg>
